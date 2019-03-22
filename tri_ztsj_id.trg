@@ -1,5 +1,5 @@
 create or replace trigger tri_ztsj_id
-  before insert on datawork_zt_sj_all_orc  
+  before insert on table_name  
   for each row
 declare
   -- local variables here
